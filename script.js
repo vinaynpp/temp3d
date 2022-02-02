@@ -202,11 +202,32 @@
  "partial": false,
  "hfov": 360,
  "pitch": 0,
- "cardboardMenu": "this.Menu_B44320C1_BAD8_2E14_41BD_CD7920E7C6E6",
+ "cardboardMenu": "this.Menu_B40A7748_BAD8_1214_41C4_ABC177F50294",
  "class": "Panorama",
  "vfov": 119.95,
  "thumbnailUrl": "media/panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A_t.jpg",
  "hfovMax": 130
+},
+{
+ "fontColor": "#FFFFFF",
+ "rollOverBackgroundColor": "#000000",
+ "children": [
+  {
+   "label": "Audi",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 0)"
+  }
+ ],
+ "label": "Media",
+ "id": "Menu_B40A7748_BAD8_1214_41C4_ABC177F50294",
+ "opacity": 0.4,
+ "fontFamily": "Arial",
+ "selectedFontColor": "#FFFFFF",
+ "rollOverOpacity": 0.8,
+ "class": "Menu",
+ "selectedBackgroundColor": "#202020",
+ "backgroundColor": "#404040",
+ "rollOverFontColor": "#FFFFFF"
 },
 {
  "items": [
@@ -256,40 +277,6 @@
  ],
  "id": "DropDown_057B3A27_3AA3_A1F2_41C0_6BB995D79A09_playlist",
  "class": "PlayList"
-},
-{
- "fontColor": "#FFFFFF",
- "rollOverBackgroundColor": "#000000",
- "children": [
-  {
-   "label": "Audi",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 0)"
-  }
- ],
- "label": "Media",
- "id": "Menu_B44320C1_BAD8_2E14_41BD_CD7920E7C6E6",
- "opacity": 0.4,
- "fontFamily": "Arial",
- "selectedFontColor": "#FFFFFF",
- "rollOverOpacity": 0.8,
- "class": "Menu",
- "selectedBackgroundColor": "#202020",
- "backgroundColor": "#404040",
- "rollOverFontColor": "#FFFFFF"
-},
-{
- "buttonToggleHotspots": "this.Button_4DE935B8_5A86_4CD2_41A9_D487E3DF3FBA",
- "gyroscopeVerticalDraggingEnabled": true,
- "displayPlaybackBar": true,
- "viewerArea": "this.MainViewer",
- "id": "MainViewerPanoramaPlayer",
- "touchControlMode": "drag_rotation",
- "mouseControlMode": "drag_acceleration",
- "buttonToggleGyroscope": "this.Button_485BFF41_598E_3DB2_41A9_33F36E014467",
- "gyroscopeEnabled": true,
- "class": "PanoramaPlayer",
- "buttonCardboardView": "this.Button_4D1C404A_5A87_C3B6_41BC_63B811C40CD0"
 },
 {
  "shadowSpread": 1,
@@ -469,6 +456,19 @@
  "data": {
   "label": "CarHorn"
  }
+},
+{
+ "buttonToggleHotspots": "this.Button_4DE935B8_5A86_4CD2_41A9_D487E3DF3FBA",
+ "gyroscopeVerticalDraggingEnabled": true,
+ "displayPlaybackBar": true,
+ "viewerArea": "this.MainViewer",
+ "id": "MainViewerPanoramaPlayer",
+ "touchControlMode": "drag_rotation",
+ "mouseControlMode": "drag_acceleration",
+ "buttonToggleGyroscope": "this.Button_485BFF41_598E_3DB2_41A9_33F36E014467",
+ "gyroscopeEnabled": true,
+ "class": "PanoramaPlayer",
+ "buttonCardboardView": "this.Button_4D1C404A_5A87_C3B6_41BC_63B811C40CD0"
 },
 {
  "items": [
@@ -1360,6 +1360,32 @@
  }
 },
 {
+ "id": "htmlText_AA70BCB7_BAF4_E5E4_41E7_0C6F907FB8BA",
+ "width": "100%",
+ "scrollBarVisible": "rollOver",
+ "backgroundOpacity": 0,
+ "scrollBarMargin": 2,
+ "class": "HTMLText",
+ "borderRadius": 0,
+ "minHeight": 0,
+ "scrollBarWidth": 10,
+ "paddingRight": 10,
+ "height": "100%",
+ "propagateClick": false,
+ "minWidth": 0,
+ "borderSize": 0,
+ "paddingTop": 10,
+ "paddingBottom": 10,
+ "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">B.Tech IT Students</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:16px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">YASH GANDHI(A071) </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">AISHWARIYA KOTHAWDE(A076)</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">YASH PAREKH(A078)</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:16px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">Mentor</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">Prof Rejo Mathew</SPAN></SPAN></DIV></div>",
+ "shadow": false,
+ "scrollBarColor": "#000000",
+ "paddingLeft": 10,
+ "data": {
+  "name": "HTMLText4449"
+ },
+ "scrollBarOpacity": 0.5
+},
+{
  "fontFamily": "Arial",
  "shadowBlurRadius": 6,
  "rollOverBackgroundOpacity": 1,
@@ -1543,32 +1569,6 @@
  "data": {
   "name": "Button settings VR"
  }
-},
-{
- "id": "htmlText_AA70BCB7_BAF4_E5E4_41E7_0C6F907FB8BA",
- "width": "100%",
- "scrollBarVisible": "rollOver",
- "backgroundOpacity": 0,
- "scrollBarMargin": 2,
- "class": "HTMLText",
- "borderRadius": 0,
- "minHeight": 0,
- "scrollBarWidth": 10,
- "paddingRight": 10,
- "height": "100%",
- "propagateClick": false,
- "minWidth": 0,
- "borderSize": 0,
- "paddingTop": 10,
- "paddingBottom": 10,
- "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">B.Tech IT Students</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:16px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">YASH GANDHI(A071) </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">AISHWARIYA KOTHAWDE(A076)</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">YASH PAREKH(A078)</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:16px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">Mentor</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">Prof Rejo Mathew</SPAN></SPAN></DIV></div>",
- "shadow": false,
- "scrollBarColor": "#000000",
- "paddingLeft": 10,
- "data": {
-  "name": "HTMLText4449"
- },
- "scrollBarOpacity": 0.5
 },
 {
  "textShadowBlurRadius": 10,

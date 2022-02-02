@@ -66,170 +66,25 @@
  "class": "PlayList"
 },
 {
- "titleFontColor": "#000000",
- "shadowSpread": 1,
- "id": "window_AA70ECB6_BAF4_E5E4_41DE_FABAF0E3CEE1",
- "horizontalAlign": "center",
- "width": 400,
- "closeButtonBorderColor": "#000000",
- "hideEffect": {
-  "duration": 500,
-  "class": "FadeOutEffect",
-  "easing": "cubic_in_out"
- },
- "closeButtonRollOverBackgroundColor": [
-  "#C13535"
- ],
- "backgroundOpacity": 1,
- "closeButtonBackgroundColorDirection": "vertical",
- "scrollBarMargin": 2,
- "class": "Window",
- "closeButtonIconHeight": 12,
- "headerBorderSize": 0,
- "overflow": "scroll",
- "titlePaddingRight": 5,
- "titlePaddingTop": 5,
- "footerBackgroundColorDirection": "vertical",
- "veilColorDirection": "horizontal",
- "minHeight": 20,
- "scrollBarWidth": 10,
- "shadowHorizontalLength": 3,
- "verticalAlign": "middle",
- "footerBackgroundColor": [
-  "#FFFFFF",
-  "#EEEEEE",
-  "#DDDDDD"
- ],
- "closeButtonPressedBackgroundColorRatios": [
-  0
- ],
- "footerBackgroundColorRatios": [
-  0,
-  0.9,
-  1
- ],
- "paddingRight": 0,
- "modal": true,
- "height": 600,
- "propagateClick": false,
- "titlePaddingBottom": 5,
- "minWidth": 20,
- "headerBorderColor": "#000000",
- "backgroundColor": [],
- "borderSize": 0,
- "titleFontStyle": "normal",
- "headerPaddingLeft": 10,
- "title": "About Us",
- "titleFontWeight": "normal",
- "headerPaddingRight": 10,
- "bodyPaddingLeft": 5,
- "bodyBackgroundOpacity": 1,
- "bodyBackgroundColor": [
-  "#FFFFFF",
-  "#DDDDDD",
-  "#FFFFFF"
- ],
- "footerHeight": 5,
- "contentOpaque": false,
- "headerBackgroundOpacity": 1,
- "backgroundColorDirection": "vertical",
- "veilShowEffect": {
-  "duration": 500,
-  "class": "FadeInEffect",
-  "easing": "cubic_in_out"
- },
- "shadow": true,
- "closeButtonPaddingRight": 0,
- "paddingLeft": 0,
- "footerBorderColor": "#000000",
- "headerBackgroundColor": [
-  "#DDDDDD",
-  "#EEEEEE",
-  "#FFFFFF"
- ],
- "bodyBackgroundColorRatios": [
-  0,
-  0.5,
-  1
- ],
- "closeButtonBackgroundColorRatios": [],
- "scrollBarColor": "#000000",
- "bodyBorderColor": "#000000",
- "bodyPaddingTop": 5,
- "titleTextDecoration": "none",
- "closeButtonIconLineWidth": 2,
- "closeButtonPaddingLeft": 0,
- "shadowBlurRadius": 6,
- "scrollBarOpacity": 0.5,
+ "fontColor": "#FFFFFF",
+ "rollOverBackgroundColor": "#000000",
  "children": [
-  "this.htmlText_AA70BCB7_BAF4_E5E4_41E7_0C6F907FB8BA"
+  {
+   "label": "Audi",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 0)"
+  }
  ],
- "veilColor": [
-  "#000000",
-  "#000000"
- ],
- "shadowVerticalLength": 0,
- "headerPaddingTop": 10,
- "scrollBarVisible": "rollOver",
- "shadowColor": "#000000",
- "closeButtonBorderRadius": 11,
- "footerBorderSize": 0,
- "closeButtonRollOverIconColor": "#FFFFFF",
- "closeButtonBorderSize": 0,
- "headerPaddingBottom": 10,
- "shadowOpacity": 0.5,
- "borderRadius": 5,
- "veilColorRatios": [
-  0,
-  1
- ],
- "titleFontSize": "1.29vmin",
- "bodyBackgroundColorDirection": "vertical",
- "headerBackgroundColorRatios": [
-  0,
-  0.1,
-  1
- ],
- "backgroundColorRatios": [],
- "veilHideEffect": {
-  "duration": 500,
-  "class": "FadeOutEffect",
-  "easing": "cubic_in_out"
- },
- "closeButtonPressedIconColor": "#FFFFFF",
- "footerBackgroundOpacity": 1,
- "closeButtonIconWidth": 12,
- "titlePaddingLeft": 5,
- "closeButtonPaddingBottom": 0,
- "veilOpacity": 0.4,
- "closeButtonPressedBackgroundColor": [
-  "#3A1D1F"
- ],
- "closeButtonBackgroundOpacity": 1,
- "gap": 10,
- "layout": "vertical",
- "paddingTop": 0,
- "bodyPaddingBottom": 5,
- "closeButtonRollOverBackgroundColorRatios": [
-  0
- ],
- "closeButtonPaddingTop": 0,
- "closeButtonIconColor": "#000000",
- "paddingBottom": 0,
- "headerVerticalAlign": "middle",
- "showEffect": {
-  "duration": 500,
-  "class": "FadeInEffect",
-  "easing": "cubic_in_out"
- },
- "closeButtonBackgroundColor": [],
- "bodyPaddingRight": 5,
- "bodyBorderSize": 0,
- "headerBackgroundColorDirection": "vertical",
- "data": {
-  "name": "Window4448"
- },
- "titleFontFamily": "Arial"
+ "label": "Media",
+ "id": "Menu_AF6DB2D4_BA8B_3DA4_41D1_4C50C51B5E8C",
+ "opacity": 0.4,
+ "fontFamily": "Arial",
+ "selectedFontColor": "#FFFFFF",
+ "rollOverOpacity": 0.8,
+ "class": "Menu",
+ "selectedBackgroundColor": "#202020",
+ "backgroundColor": "#404040",
+ "rollOverFontColor": "#FFFFFF"
 },
 {
  "hfovMax": 130,
@@ -237,12 +92,13 @@
  "hfovMin": "190%",
  "id": "panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A",
  "overlays": [
-  "this.overlay_AACF80F4_BA8D_3D65_41DF_F61D78C703B6"
+  "this.overlay_AACF80F4_BA8D_3D65_41DF_F61D78C703B6",
+  "this.overlay_AE5E3DD1_BA97_E7BF_41C5_F4EAE0A5B822"
  ],
  "partial": false,
  "hfov": 360,
  "pitch": 0,
- "cardboardMenu": "this.Menu_AFEB5142_BA97_1C9C_41C4_76AEF31713B4",
+ "cardboardMenu": "this.Menu_AF6DB2D4_BA8B_3DA4_41D1_4C50C51B5E8C",
  "class": "Panorama",
  "vfov": 119.95,
  "thumbnailUrl": "media/panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A_t.jpg",
@@ -434,6 +290,172 @@
  "class": "PlayList"
 },
 {
+ "titleFontColor": "#000000",
+ "shadowSpread": 1,
+ "id": "window_AA70ECB6_BAF4_E5E4_41DE_FABAF0E3CEE1",
+ "horizontalAlign": "center",
+ "width": 400,
+ "closeButtonBorderColor": "#000000",
+ "hideEffect": {
+  "duration": 800,
+  "class": "FadeOutEffect",
+  "easing": "cubic_in_out"
+ },
+ "closeButtonRollOverBackgroundColor": [
+  "#C13535"
+ ],
+ "backgroundOpacity": 1,
+ "closeButtonBackgroundColorDirection": "vertical",
+ "scrollBarMargin": 2,
+ "class": "Window",
+ "closeButtonIconHeight": 12,
+ "headerBorderSize": 0,
+ "overflow": "scroll",
+ "titlePaddingRight": 5,
+ "titlePaddingTop": 5,
+ "footerBackgroundColorDirection": "vertical",
+ "veilColorDirection": "horizontal",
+ "minHeight": 20,
+ "scrollBarWidth": 10,
+ "shadowHorizontalLength": 3,
+ "verticalAlign": "middle",
+ "footerBackgroundColor": [
+  "#FFFFFF",
+  "#EEEEEE",
+  "#DDDDDD"
+ ],
+ "closeButtonPressedBackgroundColorRatios": [
+  0
+ ],
+ "footerBackgroundColorRatios": [
+  0,
+  0.9,
+  1
+ ],
+ "paddingRight": 0,
+ "modal": true,
+ "height": 600,
+ "propagateClick": false,
+ "titlePaddingBottom": 5,
+ "minWidth": 20,
+ "headerBorderColor": "#000000",
+ "backgroundColor": [],
+ "borderSize": 0,
+ "titleFontStyle": "normal",
+ "headerPaddingLeft": 10,
+ "title": "About Us",
+ "titleFontWeight": "normal",
+ "headerPaddingRight": 10,
+ "bodyPaddingLeft": 5,
+ "bodyBackgroundOpacity": 0.71,
+ "bodyBackgroundColor": [
+  "#FFFFFF",
+  "#DDDDDD",
+  "#FFFFFF"
+ ],
+ "footerHeight": 5,
+ "contentOpaque": false,
+ "headerBackgroundOpacity": 1,
+ "backgroundColorDirection": "vertical",
+ "veilShowEffect": {
+  "duration": 800,
+  "class": "FadeInEffect",
+  "easing": "cubic_in_out"
+ },
+ "shadow": true,
+ "closeButtonPaddingRight": 0,
+ "paddingLeft": 0,
+ "footerBorderColor": "#000000",
+ "headerBackgroundColor": [
+  "#DDDDDD",
+  "#EEEEEE",
+  "#FFFFFF"
+ ],
+ "bodyBackgroundColorRatios": [
+  0,
+  0.5,
+  1
+ ],
+ "closeButtonBackgroundColorRatios": [],
+ "scrollBarColor": "#000000",
+ "bodyBorderColor": "#000000",
+ "bodyPaddingTop": 5,
+ "titleTextDecoration": "none",
+ "closeButtonIconLineWidth": 2,
+ "closeButtonPaddingLeft": 0,
+ "shadowBlurRadius": 6,
+ "scrollBarOpacity": 0.5,
+ "children": [
+  "this.htmlText_AA70BCB7_BAF4_E5E4_41E7_0C6F907FB8BA"
+ ],
+ "veilColor": [
+  "#000000",
+  "#000000"
+ ],
+ "shadowVerticalLength": 0,
+ "headerPaddingTop": 10,
+ "scrollBarVisible": "rollOver",
+ "shadowColor": "#000000",
+ "closeButtonBorderRadius": 11,
+ "footerBorderSize": 0,
+ "closeButtonRollOverIconColor": "#FFFFFF",
+ "closeButtonBorderSize": 0,
+ "headerPaddingBottom": 10,
+ "shadowOpacity": 0.5,
+ "borderRadius": 5,
+ "veilColorRatios": [
+  0,
+  1
+ ],
+ "titleFontSize": "1.29vmin",
+ "bodyBackgroundColorDirection": "vertical",
+ "headerBackgroundColorRatios": [
+  0,
+  0.1,
+  1
+ ],
+ "backgroundColorRatios": [],
+ "veilHideEffect": {
+  "duration": 800,
+  "class": "FadeOutEffect",
+  "easing": "cubic_in_out"
+ },
+ "closeButtonPressedIconColor": "#FFFFFF",
+ "footerBackgroundOpacity": 1,
+ "closeButtonIconWidth": 12,
+ "titlePaddingLeft": 5,
+ "closeButtonPaddingBottom": 0,
+ "veilOpacity": 0.4,
+ "closeButtonPressedBackgroundColor": [
+  "#3A1D1F"
+ ],
+ "closeButtonBackgroundOpacity": 1,
+ "gap": 10,
+ "layout": "vertical",
+ "paddingTop": 0,
+ "bodyPaddingBottom": 5,
+ "closeButtonRollOverBackgroundColorRatios": [
+  0
+ ],
+ "closeButtonPaddingTop": 0,
+ "closeButtonIconColor": "#000000",
+ "paddingBottom": 0,
+ "headerVerticalAlign": "middle",
+ "showEffect": {
+  "duration": 800,
+  "class": "FadeInEffect",
+  "easing": "cubic_in_out"
+ },
+ "closeButtonBackgroundColor": [],
+ "bodyPaddingRight": 5,
+ "bodyBorderSize": 0,
+ "headerBackgroundColorDirection": "vertical",
+ "data": {
+  "name": "Window4448"
+ },
+ "titleFontFamily": "Arial"
+},
+{
  "buttonToggleHotspots": "this.Button_4DE935B8_5A86_4CD2_41A9_D487E3DF3FBA",
  "gyroscopeVerticalDraggingEnabled": true,
  "displayPlaybackBar": true,
@@ -481,25 +503,16 @@
  }
 },
 {
- "fontColor": "#FFFFFF",
- "rollOverBackgroundColor": "#000000",
- "children": [
+ "items": [
   {
-   "label": "Audi",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 0)"
+   "media": "this.panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A",
+   "player": "this.MainViewerPanoramaPlayer",
+   "class": "PanoramaPlayListItem",
+   "camera": "this.panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A_camera"
   }
  ],
- "label": "Media",
- "id": "Menu_AFEB5142_BA97_1C9C_41C4_76AEF31713B4",
- "opacity": 0.4,
- "fontFamily": "Arial",
- "selectedFontColor": "#FFFFFF",
- "rollOverOpacity": 0.8,
- "class": "Menu",
- "selectedBackgroundColor": "#202020",
- "backgroundColor": "#404040",
- "rollOverFontColor": "#FFFFFF"
+ "id": "DropDown_0561BA16_3AA3_A1D2_41C7_FDA0B6E9EE29_playlist",
+ "class": "PlayList"
 },
 {
  "items": [
@@ -526,16 +539,17 @@
  "class": "PlayList"
 },
 {
- "items": [
-  {
-   "media": "this.panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A",
-   "player": "this.MainViewerPanoramaPlayer",
-   "class": "PanoramaPlayListItem",
-   "camera": "this.panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A_camera"
-  }
- ],
- "id": "DropDown_0561BA16_3AA3_A1D2_41C7_FDA0B6E9EE29_playlist",
- "class": "PlayList"
+ "autoplay": true,
+ "class": "MediaAudio",
+ "audio": {
+  "oggUrl": "media/audio_AF739D8A_BA8D_27AC_41D1_559147F9A15F.ogg",
+  "mp3Url": "media/audio_AF739D8A_BA8D_27AC_41D1_559147F9A15F.mp3",
+  "class": "AudioResource"
+ },
+ "id": "audio_AF739D8A_BA8D_27AC_41D1_559147F9A15F",
+ "data": {
+  "label": "CarHorn"
+ }
 },
 {
  "toolTipFontWeight": "normal",
@@ -1254,32 +1268,6 @@
  "pressedIconHeight": 30
 },
 {
- "id": "htmlText_AA70BCB7_BAF4_E5E4_41E7_0C6F907FB8BA",
- "width": "100%",
- "backgroundOpacity": 0,
- "scrollBarMargin": 2,
- "class": "HTMLText",
- "scrollBarVisible": "rollOver",
- "borderRadius": 0,
- "minHeight": 0,
- "scrollBarWidth": 10,
- "paddingRight": 10,
- "height": "100%",
- "propagateClick": false,
- "minWidth": 0,
- "borderSize": 0,
- "paddingTop": 10,
- "paddingBottom": 10,
- "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">B.Tech IT Students</SPAN></DIV><p STYLE=\"margin:0; line-height:12px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">YASH GANDHI(A071) </SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">AISHWARIYA KOTHAWDE(A076)</SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">YASH PAREKH(A078)</SPAN></DIV><p STYLE=\"margin:0; line-height:12px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">Mentor</SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\">Prof Rejo Mathew</SPAN></DIV></div>",
- "shadow": false,
- "scrollBarColor": "#000000",
- "paddingLeft": 10,
- "data": {
-  "name": "HTMLText4449"
- },
- "scrollBarOpacity": 0.5
-},
-{
  "useHandCursor": true,
  "maps": [
   {
@@ -1333,6 +1321,89 @@
  "data": {
   "label": "About"
  }
+},
+{
+ "useHandCursor": true,
+ "maps": [
+  {
+   "hfov": 51.28,
+   "yaw": -11.64,
+   "class": "HotspotPanoramaOverlayMap",
+   "image": {
+    "levels": [
+     {
+      "url": "media/panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A_0_HS_1_1_0_map.gif",
+      "width": 190,
+      "class": "ImageResourceLevel",
+      "height": 164
+     }
+    ],
+    "class": "ImageResource"
+   },
+   "pitch": -6.49
+  }
+ ],
+ "class": "HotspotPanoramaOverlay",
+ "areas": [
+  {
+   "click": "var src = this.playGlobalAudioWhilePlay(this.mainPlayList, 0, this.audio_AF739D8A_BA8D_27AC_41D1_559147F9A15F); var stateChangeFunc = function(){ if(src.get('state') == 'playing'){ this.pauseGlobalAudios(src.get('id'), [src]); } else { this.resumeGlobalAudios(src.get('id')); src.unbind('stateChange', stateChangeFunc, this); } }; src.bind('stateChange', stateChangeFunc, this)",
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000"
+  }
+ ],
+ "rollOverDisplay": false,
+ "enabledInCardboard": true,
+ "items": [
+  {
+   "hfov": 51.28,
+   "class": "HotspotPanoramaOverlayImage",
+   "roll": 0,
+   "distance": 50,
+   "image": {
+    "levels": [
+     {
+      "url": "media/panorama_A4006ADD_B5AA_5002_41A2_0635B1E1445A_0_HS_1_0.png",
+      "width": 381,
+      "class": "ImageResourceLevel",
+      "height": 329
+     }
+    ],
+    "class": "ImageResource"
+   },
+   "pitch": -6.49,
+   "yaw": -11.64
+  }
+ ],
+ "id": "overlay_AE5E3DD1_BA97_E7BF_41C5_F4EAE0A5B822",
+ "data": {
+  "label": "Polygon"
+ }
+},
+{
+ "id": "htmlText_AA70BCB7_BAF4_E5E4_41E7_0C6F907FB8BA",
+ "width": "100%",
+ "backgroundOpacity": 0,
+ "scrollBarMargin": 2,
+ "class": "HTMLText",
+ "scrollBarVisible": "rollOver",
+ "borderRadius": 0,
+ "minHeight": 0,
+ "scrollBarWidth": 10,
+ "paddingRight": 10,
+ "height": "100%",
+ "propagateClick": false,
+ "minWidth": 0,
+ "borderSize": 0,
+ "paddingTop": 10,
+ "paddingBottom": 10,
+ "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">B.Tech IT Students</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:16px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">YASH GANDHI(A071) </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">AISHWARIYA KOTHAWDE(A076)</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">YASH PAREKH(A078)</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:16px;\"><BR STYLE=\"letter-spacing:0px;color:#000000;font-size:12px;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">Mentor</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0px;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:16px;\">Prof Rejo Mathew</SPAN></SPAN></DIV></div>",
+ "shadow": false,
+ "scrollBarColor": "#000000",
+ "paddingLeft": 10,
+ "data": {
+  "name": "HTMLText4449"
+ },
+ "scrollBarOpacity": 0.5
 },
 {
  "fontFamily": "Arial",
@@ -4281,28 +4352,29 @@
   "showPopupImage": function(image, toggleImage, customWidth, customHeight, showEffect, hideEffect, closeButtonProperties, autoCloseMilliSeconds, audio, stopBackgroundAudio, loadedCallback, hideCallback){  var self = this; var closed = false; var playerClickFunction = function() { zoomImage.unbind('loaded', loadedFunction, self); hideFunction(); }; var clearAutoClose = function(){ zoomImage.unbind('click', clearAutoClose, this); if(timeoutID != undefined){ clearTimeout(timeoutID); } }; var resizeFunction = function(){ setTimeout(setCloseButtonPosition, 0); }; var loadedFunction = function(){ self.unbind('click', playerClickFunction, self); veil.set('visible', true); setCloseButtonPosition(); closeButton.set('visible', true); zoomImage.unbind('loaded', loadedFunction, this); zoomImage.bind('userInteractionStart', userInteractionStartFunction, this); zoomImage.bind('userInteractionEnd', userInteractionEndFunction, this); zoomImage.bind('resize', resizeFunction, this); timeoutID = setTimeout(timeoutFunction, 200); }; var timeoutFunction = function(){ timeoutID = undefined; if(autoCloseMilliSeconds){ var autoCloseFunction = function(){ hideFunction(); }; zoomImage.bind('click', clearAutoClose, this); timeoutID = setTimeout(autoCloseFunction, autoCloseMilliSeconds); } zoomImage.bind('backgroundClick', hideFunction, this); if(toggleImage) { zoomImage.bind('click', toggleFunction, this); zoomImage.set('imageCursor', 'hand'); } closeButton.bind('click', hideFunction, this); if(loadedCallback) loadedCallback(); }; var hideFunction = function() { self.MainViewer.set('toolTipEnabled', true); closed = true; if(timeoutID) clearTimeout(timeoutID); if (timeoutUserInteractionID) clearTimeout(timeoutUserInteractionID); if(autoCloseMilliSeconds) clearAutoClose(); if(hideCallback) hideCallback(); zoomImage.set('visible', false); if(hideEffect && hideEffect.get('duration') > 0){ hideEffect.bind('end', endEffectFunction, this); } else{ zoomImage.set('image', null); } closeButton.set('visible', false); veil.set('visible', false); self.unbind('click', playerClickFunction, self); zoomImage.unbind('backgroundClick', hideFunction, this); zoomImage.unbind('userInteractionStart', userInteractionStartFunction, this); zoomImage.unbind('userInteractionEnd', userInteractionEndFunction, this, true); zoomImage.unbind('resize', resizeFunction, this); if(toggleImage) { zoomImage.unbind('click', toggleFunction, this); zoomImage.set('cursor', 'default'); } closeButton.unbind('click', hideFunction, this); self.resumePlayers(playersPaused, audio == null || stopBackgroundAudio); if(audio){ if(stopBackgroundAudio){ self.resumeGlobalAudios(); } self.stopGlobalAudio(audio); } }; var endEffectFunction = function() { zoomImage.set('image', null); hideEffect.unbind('end', endEffectFunction, this); }; var toggleFunction = function() { zoomImage.set('image', isToggleVisible() ? image : toggleImage); }; var isToggleVisible = function() { return zoomImage.get('image') == toggleImage; }; var setCloseButtonPosition = function() { var right = zoomImage.get('actualWidth') - zoomImage.get('imageLeft') - zoomImage.get('imageWidth') + 10; var top = zoomImage.get('imageTop') + 10; if(right < 10) right = 10; if(top < 10) top = 10; closeButton.set('right', right); closeButton.set('top', top); }; var userInteractionStartFunction = function() { if(timeoutUserInteractionID){ clearTimeout(timeoutUserInteractionID); timeoutUserInteractionID = undefined; } else{ closeButton.set('visible', false); } }; var userInteractionEndFunction = function() { if(!closed){ timeoutUserInteractionID = setTimeout(userInteractionTimeoutFunction, 300); } }; var userInteractionTimeoutFunction = function() { timeoutUserInteractionID = undefined; closeButton.set('visible', true); setCloseButtonPosition(); }; this.MainViewer.set('toolTipEnabled', false); var veil = this.veilPopupPanorama; var zoomImage = this.zoomImagePopupPanorama; var closeButton = this.closeButtonPopupPanorama; if(closeButtonProperties){ for(var key in closeButtonProperties){ closeButton.set(key, closeButtonProperties[key]); } } var playersPaused = this.pauseCurrentPlayers(audio == null || !stopBackgroundAudio); if(audio){ if(stopBackgroundAudio){ this.pauseGlobalAudios(); } this.playGlobalAudio(audio); } var timeoutID = undefined; var timeoutUserInteractionID = undefined; zoomImage.bind('loaded', loadedFunction, this); setTimeout(function(){ self.bind('click', playerClickFunction, self, false); }, 0); zoomImage.set('image', image); zoomImage.set('customWidth', customWidth); zoomImage.set('customHeight', customHeight); zoomImage.set('showEffect', showEffect); zoomImage.set('hideEffect', hideEffect); zoomImage.set('visible', true); return zoomImage; },
   "playAudioList": function(audios){  if(audios.length == 0) return; var currentAudioCount = -1; var currentAudio; var playGlobalAudioFunction = this.playGlobalAudio; var playNext = function(){ if(++currentAudioCount >= audios.length) currentAudioCount = 0; currentAudio = audios[currentAudioCount]; playGlobalAudioFunction(currentAudio, playNext); }; playNext(); },
   "getCurrentPlayers": function(){  var players = this.getByClassName('PanoramaPlayer'); players = players.concat(this.getByClassName('VideoPlayer')); players = players.concat(this.getByClassName('Video360Player')); players = players.concat(this.getByClassName('PhotoAlbumPlayer')); return players; },
-  "fixTogglePlayPauseButton": function(player){  var state = player.get('state'); var buttons = player.get('buttonPlayPause'); if(typeof buttons !== 'undefined' && player.get('state') == 'playing'){ if(!Array.isArray(buttons)) buttons = [buttons]; for(var i = 0; i<buttons.length; ++i) buttons[i].set('pressed', true); } },
-  "setPanoramaCameraWithCurrentSpot": function(playListItem){  var currentPlayer = this.getActivePlayerWithViewer(this.MainViewer); if(currentPlayer == undefined){ return; } var playerClass = currentPlayer.get('class'); if(playerClass != 'PanoramaPlayer' && playerClass != 'Video360Player'){ return; } var fromMedia = currentPlayer.get('panorama'); if(fromMedia == undefined) { fromMedia = currentPlayer.get('video'); } var panorama = playListItem.get('media'); var newCamera = this.cloneCamera(playListItem.get('camera')); this.setCameraSameSpotAsMedia(newCamera, fromMedia); this.startPanoramaWithCamera(panorama, newCamera); },
+  "setMainMediaByIndex": function(index){  var item = undefined; if(index >= 0 && index < this.mainPlayList.get('items').length){ this.mainPlayList.set('selectedIndex', index); item = this.mainPlayList.get('items')[index]; } return item; },
+  "historyGoForward": function(playList){  var history = this.get('data')['history'][playList.get('id')]; if(history != undefined) { history.forward(); } },
   "getPlayListItems": function(media, player){  var itemClass = (function() { switch(media.get('class')) { case 'Panorama': case 'LivePanorama': case 'HDRPanorama': return 'PanoramaPlayListItem'; case 'Video360': return 'Video360PlayListItem'; case 'PhotoAlbum': return 'PhotoAlbumPlayListItem'; case 'Map': return 'MapPlayListItem'; case 'Video': return 'VideoPlayListItem'; } })(); if (itemClass != undefined) { var items = this.getByClassName(itemClass); for (var i = items.length-1; i>=0; --i) { var item = items[i]; if(item.get('media') != media || (player != undefined && item.get('player') != player)) { items.splice(i, 1); } } return items; } else { return []; } },
   "getPlayListWithMedia": function(media, onlySelected){  var playLists = this.getByClassName('PlayList'); for(var i = 0, count = playLists.length; i<count; ++i){ var playList = playLists[i]; if(onlySelected && playList.get('selectedIndex') == -1) continue; if(this.getPlayListItemByMedia(playList, media) != undefined) return playList; } return undefined; },
   "getMediaByName": function(name){  var list = this.getByClassName('Media'); for(var i = 0, count = list.length; i<count; ++i){ var media = list[i]; if((media.get('class') == 'Audio' && media.get('data').label == name) || media.get('label') == name){ return media; } } return undefined; },
   "getKey": function(key){  return window[key]; },
   "startPanoramaWithCamera": function(media, camera){  if(window.currentPanoramasWithCameraChanged != undefined && window.currentPanoramasWithCameraChanged.indexOf(media) != -1){ return; } var playLists = this.getByClassName('PlayList'); if(playLists.length == 0) return; var restoreItems = []; for(var i = 0, count = playLists.length; i<count; ++i){ var playList = playLists[i]; var items = playList.get('items'); for(var j = 0, countJ = items.length; j<countJ; ++j){ var item = items[j]; if(item.get('media') == media && (item.get('class') == 'PanoramaPlayListItem' || item.get('class') == 'Video360PlayListItem')){ restoreItems.push({camera: item.get('camera'), item: item}); item.set('camera', camera); } } } if(restoreItems.length > 0) { if(window.currentPanoramasWithCameraChanged == undefined) { window.currentPanoramasWithCameraChanged = [media]; } else { window.currentPanoramasWithCameraChanged.push(media); } var restoreCameraOnStop = function(){ var index = window.currentPanoramasWithCameraChanged.indexOf(media); if(index != -1) { window.currentPanoramasWithCameraChanged.splice(index, 1); } for (var i = 0; i < restoreItems.length; i++) { restoreItems[i].item.set('camera', restoreItems[i].camera); restoreItems[i].item.unbind('stop', restoreCameraOnStop, this); } }; for (var i = 0; i < restoreItems.length; i++) { restoreItems[i].item.bind('stop', restoreCameraOnStop, this); } } },
-  "resumePlayers": function(players, onlyResumeCameraIfPanorama){  for(var i = 0; i<players.length; ++i){ var player = players[i]; if(onlyResumeCameraIfPanorama && player.get('class') == 'PanoramaPlayer' && typeof player.get('video') === 'undefined'){ player.resumeCamera(); } else{ player.play(); } } },
+  "fixTogglePlayPauseButton": function(player){  var state = player.get('state'); var buttons = player.get('buttonPlayPause'); if(typeof buttons !== 'undefined' && player.get('state') == 'playing'){ if(!Array.isArray(buttons)) buttons = [buttons]; for(var i = 0; i<buttons.length; ++i) buttons[i].set('pressed', true); } },
+  "setPanoramaCameraWithCurrentSpot": function(playListItem){  var currentPlayer = this.getActivePlayerWithViewer(this.MainViewer); if(currentPlayer == undefined){ return; } var playerClass = currentPlayer.get('class'); if(playerClass != 'PanoramaPlayer' && playerClass != 'Video360Player'){ return; } var fromMedia = currentPlayer.get('panorama'); if(fromMedia == undefined) { fromMedia = currentPlayer.get('video'); } var panorama = playListItem.get('media'); var newCamera = this.cloneCamera(playListItem.get('camera')); this.setCameraSameSpotAsMedia(newCamera, fromMedia); this.startPanoramaWithCamera(panorama, newCamera); },
   "getGlobalAudio": function(audio){  var audios = window.currentGlobalAudios; if(audios != undefined && audio.get('id') in audios){ audio = audios[audio.get('id')]; } return audio; },
   "getPixels": function(value){  var result = new RegExp('((\\+|\\-)?\\d+(\\.\\d*)?)(px|vw|vh|vmin|vmax)?', 'i').exec(value); if (result == undefined) { return 0; } var num = parseFloat(result[1]); var unit = result[4]; var vw = this.rootPlayer.get('actualWidth') / 100; var vh = this.rootPlayer.get('actualHeight') / 100; switch(unit) { case 'vw': return num * vw; case 'vh': return num * vh; case 'vmin': return num * Math.min(vw, vh); case 'vmax': return num * Math.max(vw, vh); default: return num; } },
-  "setMainMediaByIndex": function(index){  var item = undefined; if(index >= 0 && index < this.mainPlayList.get('items').length){ this.mainPlayList.set('selectedIndex', index); item = this.mainPlayList.get('items')[index]; } return item; },
+  "resumePlayers": function(players, onlyResumeCameraIfPanorama){  for(var i = 0; i<players.length; ++i){ var player = players[i]; if(onlyResumeCameraIfPanorama && player.get('class') == 'PanoramaPlayer' && typeof player.get('video') === 'undefined'){ player.resumeCamera(); } else{ player.play(); } } },
+  "setStartTimeVideoSync": function(video, player){  this.setStartTimeVideo(video, player.get('currentTime')); },
   "init": function(){  if(!Object.hasOwnProperty('values')) { Object.values = function(o){ return Object.keys(o).map(function(e) { return o[e]; }); }; } var history = this.get('data')['history']; var playListChangeFunc = function(e){ var playList = e.source; var index = playList.get('selectedIndex'); if(index < 0) return; var id = playList.get('id'); if(!history.hasOwnProperty(id)) history[id] = new HistoryData(playList); history[id].add(index); }; var playLists = this.getByClassName('PlayList'); for(var i = 0, count = playLists.length; i<count; ++i) { var playList = playLists[i]; playList.bind('change', playListChangeFunc, this); } },
   "getCurrentPlayerWithMedia": function(media){  var playerClass = undefined; var mediaPropertyName = undefined; switch(media.get('class')) { case 'Panorama': case 'LivePanorama': case 'HDRPanorama': playerClass = 'PanoramaPlayer'; mediaPropertyName = 'panorama'; break; case 'Video360': playerClass = 'PanoramaPlayer'; mediaPropertyName = 'video'; break; case 'PhotoAlbum': playerClass = 'PhotoAlbumPlayer'; mediaPropertyName = 'photoAlbum'; break; case 'Map': playerClass = 'MapPlayer'; mediaPropertyName = 'map'; break; case 'Video': playerClass = 'VideoPlayer'; mediaPropertyName = 'video'; break; }; if(playerClass != undefined) { var players = this.getByClassName(playerClass); for(var i = 0; i<players.length; ++i){ var player = players[i]; if(player.get(mediaPropertyName) == media) { return player; } } } else { return undefined; } },
   "setPanoramaCameraWithSpot": function(playListItem, yaw, pitch){  var panorama = playListItem.get('media'); var newCamera = this.cloneCamera(playListItem.get('camera')); var initialPosition = newCamera.get('initialPosition'); initialPosition.set('yaw', yaw); initialPosition.set('pitch', pitch); this.startPanoramaWithCamera(panorama, newCamera); },
   "shareFacebook": function(url){  window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank'); },
-  "historyGoForward": function(playList){  var history = this.get('data')['history'][playList.get('id')]; if(history != undefined) { history.forward(); } },
+  "initGA": function(){  var sendFunc = function(category, event, label) { ga('send', 'event', category, event, label); }; var media = this.getByClassName('Panorama'); media = media.concat(this.getByClassName('Video360')); media = media.concat(this.getByClassName('Map')); for(var i = 0, countI = media.length; i<countI; ++i){ var m = media[i]; var mediaLabel = m.get('label'); var overlays = this.getOverlays(m); for(var j = 0, countJ = overlays.length; j<countJ; ++j){ var overlay = overlays[j]; var overlayLabel = overlay.get('data') != undefined ? mediaLabel + ' - ' + overlay.get('data')['label'] : mediaLabel; switch(overlay.get('class')) { case 'HotspotPanoramaOverlay': case 'HotspotMapOverlay': var areas = overlay.get('areas'); for (var z = 0; z<areas.length; ++z) { areas[z].bind('click', sendFunc.bind(this, 'Hotspot', 'click', overlayLabel), this); } break; case 'CeilingCapPanoramaOverlay': case 'TripodCapPanoramaOverlay': overlay.bind('click', sendFunc.bind(this, 'Cap', 'click', overlayLabel), this); break; } } } var components = this.getByClassName('Button'); components = components.concat(this.getByClassName('IconButton')); for(var i = 0, countI = components.length; i<countI; ++i){ var c = components[i]; var componentLabel = c.get('data')['name']; c.bind('click', sendFunc.bind(this, 'Skin', 'click', componentLabel), this); } var items = this.getByClassName('PlayListItem'); var media2Item = {}; for(var i = 0, countI = items.length; i<countI; ++i) { var item = items[i]; var media = item.get('media'); if(!(media.get('id') in media2Item)) { item.bind('begin', sendFunc.bind(this, 'Media', 'play', media.get('label')), this); media2Item[media.get('id')] = item; } } },
   "setComponentVisibility": function(component, visible, applyAt, effect, propertyEffect, ignoreClearTimeout){  var keepVisibility = this.getKey('keepVisibility_' + component.get('id')); if(keepVisibility) return; this.unregisterKey('visibility_'+component.get('id')); var changeVisibility = function(){ if(effect && propertyEffect){ component.set(propertyEffect, effect); } component.set('visible', visible); if(component.get('class') == 'ViewerArea'){ try{ if(visible) component.restart(); else if(component.get('playbackState') == 'playing') component.pause(); } catch(e){}; } }; var effectTimeoutName = 'effectTimeout_'+component.get('id'); if(!ignoreClearTimeout && window.hasOwnProperty(effectTimeoutName)){ var effectTimeout = window[effectTimeoutName]; if(effectTimeout instanceof Array){ for(var i=0; i<effectTimeout.length; i++){ clearTimeout(effectTimeout[i]) } }else{ clearTimeout(effectTimeout); } delete window[effectTimeoutName]; } else if(visible == component.get('visible') && !ignoreClearTimeout) return; if(applyAt && applyAt > 0){ var effectTimeout = setTimeout(function(){ if(window[effectTimeoutName] instanceof Array) { var arrayTimeoutVal = window[effectTimeoutName]; var index = arrayTimeoutVal.indexOf(effectTimeout); arrayTimeoutVal.splice(index, 1); if(arrayTimeoutVal.length == 0){ delete window[effectTimeoutName]; } }else{ delete window[effectTimeoutName]; } changeVisibility(); }, applyAt); if(window.hasOwnProperty(effectTimeoutName)){ window[effectTimeoutName] = [window[effectTimeoutName], effectTimeout]; }else{ window[effectTimeoutName] = effectTimeout; } } else{ changeVisibility(); } },
   "getComponentByName": function(name){  var list = this.getByClassName('UIComponent'); for(var i = 0, count = list.length; i<count; ++i){ var component = list[i]; var data = component.get('data'); if(data != undefined && data.name == name){ return component; } } return undefined; },
   "isCardboardViewMode": function(){  var players = this.getByClassName('PanoramaPlayer'); return players.length > 0 && players[0].get('viewMode') == 'cardboard'; },
   "unregisterKey": function(key){  delete window[key]; },
   "setMainMediaByName": function(name){  var items = this.mainPlayList.get('items'); for(var i = 0; i<items.length; ++i){ var item = items[i]; if(item.get('media').get('label') == name) { this.mainPlayList.set('selectedIndex', i); return item; } } },
-  "initGA": function(){  var sendFunc = function(category, event, label) { ga('send', 'event', category, event, label); }; var media = this.getByClassName('Panorama'); media = media.concat(this.getByClassName('Video360')); media = media.concat(this.getByClassName('Map')); for(var i = 0, countI = media.length; i<countI; ++i){ var m = media[i]; var mediaLabel = m.get('label'); var overlays = this.getOverlays(m); for(var j = 0, countJ = overlays.length; j<countJ; ++j){ var overlay = overlays[j]; var overlayLabel = overlay.get('data') != undefined ? mediaLabel + ' - ' + overlay.get('data')['label'] : mediaLabel; switch(overlay.get('class')) { case 'HotspotPanoramaOverlay': case 'HotspotMapOverlay': var areas = overlay.get('areas'); for (var z = 0; z<areas.length; ++z) { areas[z].bind('click', sendFunc.bind(this, 'Hotspot', 'click', overlayLabel), this); } break; case 'CeilingCapPanoramaOverlay': case 'TripodCapPanoramaOverlay': overlay.bind('click', sendFunc.bind(this, 'Cap', 'click', overlayLabel), this); break; } } } var components = this.getByClassName('Button'); components = components.concat(this.getByClassName('IconButton')); for(var i = 0, countI = components.length; i<countI; ++i){ var c = components[i]; var componentLabel = c.get('data')['name']; c.bind('click', sendFunc.bind(this, 'Skin', 'click', componentLabel), this); } var items = this.getByClassName('PlayListItem'); var media2Item = {}; for(var i = 0, countI = items.length; i<countI; ++i) { var item = items[i]; var media = item.get('media'); if(!(media.get('id') in media2Item)) { item.bind('begin', sendFunc.bind(this, 'Media', 'play', media.get('label')), this); media2Item[media.get('id')] = item; } } },
   "keepComponentVisibility": function(component, keep){  var key = 'keepVisibility_' + component.get('id'); var value = this.getKey(key); if(value == undefined && keep) { this.registerKey(key, keep); } else if(value != undefined && !keep) { this.unregisterKey(key); } },
   "cloneCamera": function(camera){  var newCamera = this.rootPlayer.createInstance(camera.get('class')); newCamera.set('id', camera.get('id') + '_copy'); newCamera.set('idleSequence', camera.get('initialSequence')); return newCamera; },
   "changePlayListWithSameSpot": function(playList, newIndex){  var currentIndex = playList.get('selectedIndex'); if (currentIndex >= 0 && newIndex >= 0 && currentIndex != newIndex) { var currentItem = playList.get('items')[currentIndex]; var newItem = playList.get('items')[newIndex]; var currentPlayer = currentItem.get('player'); var newPlayer = newItem.get('player'); if ((currentPlayer.get('class') == 'PanoramaPlayer' || currentPlayer.get('class') == 'Video360Player') && (newPlayer.get('class') == 'PanoramaPlayer' || newPlayer.get('class') == 'Video360Player')) { var newCamera = this.cloneCamera(newItem.get('camera')); this.setCameraSameSpotAsMedia(newCamera, currentItem.get('media')); this.startPanoramaWithCamera(newItem.get('media'), newCamera); } } },
@@ -4313,7 +4385,6 @@
   "updateMediaLabelFromPlayList": function(playList, htmlText, playListItemStopToDispose){  var changeFunction = function(){ var index = playList.get('selectedIndex'); if(index >= 0){ var beginFunction = function(){ playListItem.unbind('begin', beginFunction); setMediaLabel(index); }; var setMediaLabel = function(index){ var media = playListItem.get('media'); var text = media.get('data'); if(!text) text = media.get('label'); setHtml(text); }; var setHtml = function(text){ if(text !== undefined) { htmlText.set('html', '<div style=\"text-align:left\"><SPAN STYLE=\"color:#FFFFFF;font-size:12px;font-family:Verdana\"><span color=\"white\" font-family=\"Verdana\" font-size=\"12px\">' + text + '</SPAN></div>'); } else { htmlText.set('html', ''); } }; var playListItem = playList.get('items')[index]; if(htmlText.get('html')){ setHtml('Loading...'); playListItem.bind('begin', beginFunction); } else{ setMediaLabel(index); } } }; var disposeFunction = function(){ htmlText.set('html', undefined); playList.unbind('change', changeFunction, this); playListItemStopToDispose.unbind('stop', disposeFunction, this); }; if(playListItemStopToDispose){ playListItemStopToDispose.bind('stop', disposeFunction, this); } playList.bind('change', changeFunction, this); changeFunction(); },
   "showComponentsWhileMouseOver": function(parentComponent, components, durationVisibleWhileOut){  var setVisibility = function(visible){ for(var i = 0, length = components.length; i<length; i++){ var component = components[i]; if(component.get('class') == 'HTMLText' && (component.get('html') == '' || component.get('html') == undefined)) { continue; } component.set('visible', visible); } }; if (this.rootPlayer.get('touchDevice') == true){ setVisibility(true); } else { var timeoutID = -1; var rollOverFunction = function(){ setVisibility(true); if(timeoutID >= 0) clearTimeout(timeoutID); parentComponent.unbind('rollOver', rollOverFunction, this); parentComponent.bind('rollOut', rollOutFunction, this); }; var rollOutFunction = function(){ var timeoutFunction = function(){ setVisibility(false); parentComponent.unbind('rollOver', rollOverFunction, this); }; parentComponent.unbind('rollOut', rollOutFunction, this); parentComponent.bind('rollOver', rollOverFunction, this); timeoutID = setTimeout(timeoutFunction, durationVisibleWhileOut); }; parentComponent.bind('rollOver', rollOverFunction, this); } },
   "loopAlbum": function(playList, index){  var playListItem = playList.get('items')[index]; var player = playListItem.get('player'); var loopFunction = function(){ player.play(); }; this.executeFunctionWhenChange(playList, index, loopFunction); },
-  "setStartTimeVideoSync": function(video, player){  this.setStartTimeVideo(video, player.get('currentTime')); },
   "registerKey": function(key, value){  window[key] = value; },
   "showPopupMedia": function(w, media, playList, popupMaxWidth, popupMaxHeight, autoCloseWhenFinished, stopAudios){  var self = this; var closeFunction = function(){ playList.set('selectedIndex', -1); self.MainViewer.set('toolTipEnabled', true); if(stopAudios) { self.resumeGlobalAudios(); } this.resumePlayers(playersPaused, !stopAudios); if(isVideo) { this.unbind('resize', resizeFunction, this); } w.unbind('close', closeFunction, this); }; var endFunction = function(){ w.hide(); }; var resizeFunction = function(){ var getWinValue = function(property){ return w.get(property) || 0; }; var parentWidth = self.get('actualWidth'); var parentHeight = self.get('actualHeight'); var mediaWidth = self.getMediaWidth(media); var mediaHeight = self.getMediaHeight(media); var popupMaxWidthNumber = parseFloat(popupMaxWidth) / 100; var popupMaxHeightNumber = parseFloat(popupMaxHeight) / 100; var windowWidth = popupMaxWidthNumber * parentWidth; var windowHeight = popupMaxHeightNumber * parentHeight; var footerHeight = getWinValue('footerHeight'); var headerHeight = getWinValue('headerHeight'); if(!headerHeight) { var closeButtonHeight = getWinValue('closeButtonIconHeight') + getWinValue('closeButtonPaddingTop') + getWinValue('closeButtonPaddingBottom'); var titleHeight = self.getPixels(getWinValue('titleFontSize')) + getWinValue('titlePaddingTop') + getWinValue('titlePaddingBottom'); headerHeight = closeButtonHeight > titleHeight ? closeButtonHeight : titleHeight; headerHeight += getWinValue('headerPaddingTop') + getWinValue('headerPaddingBottom'); } var contentWindowWidth = windowWidth - getWinValue('bodyPaddingLeft') - getWinValue('bodyPaddingRight') - getWinValue('paddingLeft') - getWinValue('paddingRight'); var contentWindowHeight = windowHeight - headerHeight - footerHeight - getWinValue('bodyPaddingTop') - getWinValue('bodyPaddingBottom') - getWinValue('paddingTop') - getWinValue('paddingBottom'); var parentAspectRatio = contentWindowWidth / contentWindowHeight; var mediaAspectRatio = mediaWidth / mediaHeight; if(parentAspectRatio > mediaAspectRatio) { windowWidth = contentWindowHeight * mediaAspectRatio + getWinValue('bodyPaddingLeft') + getWinValue('bodyPaddingRight') + getWinValue('paddingLeft') + getWinValue('paddingRight'); } else { windowHeight = contentWindowWidth / mediaAspectRatio + headerHeight + footerHeight + getWinValue('bodyPaddingTop') + getWinValue('bodyPaddingBottom') + getWinValue('paddingTop') + getWinValue('paddingBottom'); } if(windowWidth > parentWidth * popupMaxWidthNumber) { windowWidth = parentWidth * popupMaxWidthNumber; } if(windowHeight > parentHeight * popupMaxHeightNumber) { windowHeight = parentHeight * popupMaxHeightNumber; } w.set('width', windowWidth); w.set('height', windowHeight); w.set('x', (parentWidth - getWinValue('actualWidth')) * 0.5); w.set('y', (parentHeight - getWinValue('actualHeight')) * 0.5); }; if(autoCloseWhenFinished){ this.executeFunctionWhenChange(playList, 0, endFunction); } var mediaClass = media.get('class'); var isVideo = mediaClass == 'Video' || mediaClass == 'Video360'; playList.set('selectedIndex', 0); if(isVideo){ this.bind('resize', resizeFunction, this); resizeFunction(); playList.get('items')[0].get('player').play(); } else { w.set('width', popupMaxWidth); w.set('height', popupMaxHeight); } this.MainViewer.set('toolTipEnabled', false); if(stopAudios) { this.pauseGlobalAudios(); } var playersPaused = this.pauseCurrentPlayers(!stopAudios); w.bind('close', closeFunction, this); w.show(this, true); },
   "setEndToItemIndex": function(playList, fromIndex, toIndex){  var endFunction = function(){ if(playList.get('selectedIndex') == fromIndex) playList.set('selectedIndex', toIndex); }; this.executeFunctionWhenChange(playList, fromIndex, endFunction); },
